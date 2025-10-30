@@ -1,6 +1,17 @@
 html {
-  background: #333;
+  background: #0A0A0A;
+  color: #DCDCDC;
 }
+
+h1, h2, h3, h4 {
+  font-family: "Gabarito";
+  font-weight: 800;
+}
+
+em {
+  color: #FFCE7A;
+}
+
 body::-webkit-scrollbar {
   width: 4px;
 }
@@ -22,6 +33,9 @@ body::-webkit-scrollbar-thumb {
   padding: 45px;
   min-height: 100vh;
   overflow-x: hidden;
+  background: none;
+  font-family: "TASA Orbiter";
+  font-weight: 400;
 }
 @media (max-width: 767px) {
   .markdown-body {
@@ -51,7 +65,7 @@ body::-webkit-scrollbar-thumb {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: #FFCE7A;
   animation: 0.5s linear infinite alternate pulse;
 }
 .peek-loader::after {
